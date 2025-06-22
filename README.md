@@ -1,12 +1,73 @@
-# React + Vite
+# 🐝 WordBee — A Wordle-Inspired Game Built with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **WordBee** — a fun and challenging 5-letter word guessing game built using React!  
+Test your vocabulary, logic, and strategy as you try to guess the hidden word within 6 attempts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 How to Play
 
-## Expanding the ESLint configuration
+- Guess the **5-letter English word** in **6 tries**.
+- Each guess must be a valid word **with no repeating letters**.
+- Feedback is given in the form of:
+  - 🟢 **Green**: correct letter in the correct position.
+  - 🟠 **Orange**: correct letter, wrong position.
+  - ⚪ **Gray**: incorrect letter.
+- Numbers beside each row show:
+  - The count of 🟢 correct-position letters.
+  - The count of 🟠 misplaced-position letters.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ **React.js** — Frontend framework
+- 🎨 **CSS** — Responsive styling and layout
+- 🧠 **Custom Logic** — Valid word filtering, guess checking, and game state management
+
+---
+
+## ✨ Features
+
+- 🔄 New game generation with unique 5-letter target words
+- 🔠 Smart input navigation for seamless typing
+- 🧮 Feedback circles and count display
+- 📱 Fully responsive for mobile and desktop
+- 🚫 Prevents duplicate letter guesses and invalid words
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+├── App.jsx              # Main game component
+├── wordList.js          # Full word list used for validation and target selection
+├── filteredWordList.js  # List with only unique-letter 5-letter words
+├── styles/              # Optional custom CSS
+```
+
+---
+
+## 🧪 Future Improvements
+
+- 🔊 Sound effects for feedback
+- 📊 Stats & streak tracking
+- 🌎 Dark mode toggle
+- 🌐 Language support
+
+---
+
+## 👩‍💻 Authors
+
+- [MrChepe09](https://github.com/MrChepe09)
+
+---
+
+## 📄 License
+
+MIT License — feel free to use, modify, and share.
+
+---
+
+Happy Guessing! 🐝💛
