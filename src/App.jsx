@@ -389,6 +389,8 @@ const App = () => {
         width: '100%', 
         justifyContent: 'center', 
         padding: '10px 20px',
+        textAlign: 'center',
+        alignItems: 'center',
         ...styles.footer
       }}>
         <p>Made with extreme hardwork and patience by{' '}
